@@ -3,26 +3,14 @@ import {
   Lier,
   type Lire,
   type CCD,
-} from '@monospace/openapp/src/deep/absolute-import'
+} from "@monospace/openapp/src/deep/absolute-import";
 
-import {
-  Pad,
-  Cpe,
-  Opsd,
-  CDCD,
-} from './deep/relative-import'
+import { Pad, Cpe, Opsd, CDCD } from "./deep/relative-import";
 
+export type C1 = typeof asd | typeof Lier | Lire | CCD;
 
-export type C1 =
-  | typeof asd
-  | typeof Lier
-  | Lire
-  | CCD
+export type C2 = typeof Pad | typeof Cpe | Opsd | CDCD;
 
-export type C2 = 
-  | typeof Pad
-  | typeof Cpe
-  | Opsd
-  | CDCD
-  
-export type C3 = ''
+export type C3 = "";
+
+export type { SomeComp } from "./deep/import-other-mono";
