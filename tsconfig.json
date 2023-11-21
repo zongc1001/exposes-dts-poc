@@ -1,18 +1,20 @@
 {
-  "extends": "@zthxxx/tsconfig/tsconfig.json",
   "compilerOptions": {
-    "target": "ES2022",
-    "rootDir": ".",
+    "target": "ESNext",
+    "module": "ESNext",
     "baseUrl": ".",
-
+    "noEmit": true,
+    "noEmitOnError": false,
+    "declaration": true,
+    "moduleResolution": "node",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext",
+    ],
     "types": [
       "node",
     ],
-
-    // set by Next.js
-    // Next.js implements its own optimized jsx transform
-    "jsx": "preserve",
-
     "paths": {
       "@monospace/openapp": ["packages/openapp"],
       "@monospace/openapp/*": ["packages/openapp/*"],

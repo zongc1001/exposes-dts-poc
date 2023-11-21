@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   ttypescript:
     specifier: ^1.5.15
@@ -19,9 +15,6 @@ devDependencies:
   '@types/node':
     specifier: ^20.9.0
     version: 20.9.0
-  '@zthxxx/tsconfig':
-    specifier: ^1.0.2
-    version: 1.0.2
   npm-run-all:
     specifier: ^4.1.5
     version: 4.1.5
@@ -329,10 +322,6 @@ packages:
 
   /@types/which@3.0.2:
     resolution: {integrity: sha512-UqCG7NjNyume6e+BHcFkOQOS8of/E18V2z/jTRkiD98YiiryYOFBVvPxqA/8PQCwkn7icKqz/hFflMIRN2HGhQ==}
-    dev: true
-
-  /@zthxxx/tsconfig@1.0.2:
-    resolution: {integrity: sha512-ZxZHNv3Ywu7zhWTukVwAUzsEN2/Nz0nILyV7/6wF5Ce+XCEpiFNpTnfWBQ2B0S6dCSqhVD3FC3tusE/iP2izZQ==}
     dev: true
 
   /acorn-walk@8.3.0:
@@ -1642,3 +1631,7 @@ packages:
       which: 3.0.1
       yaml: 2.3.4
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
