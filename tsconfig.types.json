@@ -6,6 +6,7 @@
     "module": "ESNext",
     "noEmit": false,
     "emitDeclarationOnly": true,
+    "declarationMap": false,
     // https://www.typescriptlang.org/tsconfig#isolatedModules
     "isolatedModules": false,
     // typescript plugins apply by ts-patch
